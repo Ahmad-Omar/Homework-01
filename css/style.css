@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side .phone-img {
+    width: 70%;
+    margin: auto;
+}
+.left-side .phone-img img {
+    width: 100%;
+}
+.left-side .bullets {
+    margin-top: 22px;
+    text-align: center;
+}
+.left-side .bullets li {
+    list-style-type: none;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #98d261;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.left-side .bullets li.active {
+    background-color: #98d261;
+}
+.left-side .bullets li:hover {
+    background-color: #98d261;
+}
+.right-side .right {
+    width: 70%;
+    margin: auto;
+}
+.right-side .logo {
+    width: 200px;
+}
+.right-side p {
+    color: #B9B9B9;
+    font-size: 20px;
+    margin: 60px 0 0;
+}
+.right-side .buttons {
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.right-side .buttons a {
+    text-decoration: none;
+    border: 2px solid;
+    display: inline-block;
+    padding: 8px 0;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 45%;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.right-side .buttons .download {
+    color: #98d261;
+    background-color: transparent;
+}
+.right-side .buttons .download:hover {
+    background-color: #98d261;
+    color: #fff;
+    border: 2px solid #98d261;
+}
+.right-side .buttons .readmore {
+    color: #fff;
+    background-color: #B9B9B9;
+    border-color: #B9B9B9
+}
+.right-side .buttons .readmore:hover {
+    background-color: transparent;
+    color: #B9B9B9;
+}
+.right-side .platforms {
+    margin: 0 4px;
+}
+.right-side .platforms a {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 28px;
+    width: 20px;
+}
+.right-side .platforms a img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.right-side .platforms a img:hover {
+    filter: grayscale(100%);
+}
