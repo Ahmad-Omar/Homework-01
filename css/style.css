@@ -6,13 +6,22 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    overflow-y: hidden;
 }
 .container {
     padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
+    .left-side {
+        margin-bottom: 50px;
+    }
 }
 .left-side .phone-img {
     width: 70%;
@@ -41,6 +50,11 @@ body {
 }
 .left-side .bullets li:hover {
     background-color: #98d261;
+}
+@media screen and (max-width: 576px) {
+    .right-side {
+        text-align: center;
+    }
 }
 .right-side .right {
     width: 70%;
