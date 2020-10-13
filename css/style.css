@@ -110,8 +110,10 @@ body {
 .right-side .platforms a {
     list-style-type: none;
     display: inline-block;
-    margin-right: 28px;
     width: 20px;
+}
+.right-side .platforms a:not(:last-child) {
+    margin-right: 28px;
 }
 .right-side .platforms a img {
     width: 100%;
